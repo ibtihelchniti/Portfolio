@@ -43,14 +43,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://www.linkedin.com/in/ibtihel-chniti-21a6a5238/",
+        url: "https://github.com/ibtihelchniti",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/chaima-ben-salah-a2a20927a/",
+        url: "https://www.linkedin.com/in/ibtihel-chniti-21a6a5238/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -252,11 +252,11 @@ export const DATA = {
   hackathons: [
    
     {
-      title: "Coursera",
-      dates: "Jan 2022",
+      title: "Coursera - Introduction to DevOps",
+      dates: "Sep 2024",
       location: "",
-      description: "Introduction to DevOps",
-      image: "/gomycode.png",
+      description: "Completed the 'Introduction to DevOps' course on Coursera, covering key concepts such as CI/CD, automation, infrastructure as code (IaC), monitoring, and collaboration between development and operations teams.",
+      image: "/coursera-logo.png",
       win: "",
       mlh: "",
       links: [
@@ -266,35 +266,23 @@ export const DATA = {
 
 
     {
-      title: "Huawei Certification",
-      dates: "May 2023", 
-      location: "HCIA - Cloud Computing",
-      description: "Certified in Huawei HCIA, covering cloud computing fundamentals, architecture, and deployment using Huawei technologies.",
-      image: "/huawei.jpg", 
+      title: "Machine Learning Bootcamp Certification",
+      dates: "Jan 2022", 
+      location: "IEEE ISSAT Sousse Student Branch",
+      description: "Certified for participating in the Machine Learning Bootcamp Weekend, covering fundamental concepts and practical applications of machine learning.",
+      image: "/ieee.jpg", 
       mlh: "",
       links: [
         
       ],
     },
+
     {
-      
-        title: "9antra Academy",
-        dates: "Feb 2024", // Update with the actual date of certification
-        location: "Java Programming Certification",
-        description: "Certified in Java programming, covering core concepts, object-oriented programming, and application development.",
-        image: "/9antra.png", // Add the path to your certification logo if available
-        win: "",
-        mlh: "",
-        links: [
-          // Add any relevant links, such as a certificate verification link
-        ],
-      },
-    {
-      title: "Udemy",
-      dates: "Oct 2024",
-      location: "JavaScript Programming: Complete Beginner to Advanced",
-      description: "",
-      image: "/udemy.png",
+      title: "Microsoft Club Web Development Certification",
+      dates: "2021",
+      location: "Microsoft ISSAT Sousse Student Club",
+      description: "Certified for completing a year-long training on web development fundamentals, including HTML, CSS, and JavaScript, organized by the Microsoft Student Club.",
+      image: "/mic.png",
       win: "",
       mlh: "",
       links: [
@@ -307,37 +295,15 @@ export const DATA = {
 
 
   clubs: [
+
     {
-      name: "UNICEF Tunisia",
-      description: "UNICEF Tunisia is a branch of the United Nations Children's Fund focused on protecting children's rights in Tunisia. It works to ensure access to education, healthcare, and protection, especially for vulnerable groups like migrant children.",
-      logoUrl: "/uniceff.png",
-      start: "2022",
-      end: "2025",
+      name: "Microsoft Student Club - ISSAT Sousse",
+      description: "",
+      logoUrl: "/mic.png",
+      start: "2021",
+      end: "2023",
       role: "Member",
-      events: [
-        {
-          title: "Collaboration with the International Organization for Migration (IOM)",
-          description: "Organized awareness workshops for migrant families in collaboration with IOM Tunisia, highlighting the importance of education and its positive impact on children. This initiative successfully integrated a group of migrant children into primary schools in Medenine, Zarzis, and Djerba, providing them with essential school supplies.",
-          date: "Dec 2024",
-          image: "/unicefevent.png",
-          url:"https://www.instagram.com/p/DDuflP-x8Z3/?img_index=1",
-        },
-        {
-          title: "Showcasing the Second Chance Program",
-          description: "A transformative initiative aimed at supporting adolescents who have dropped out of school, empowering them to reintegrate into education and society. The event also featured a powerful expressive dance performance on addiction, presented by the Civic Education Club of the Second Chance School in Bab El Khadhra, showcasing the importance of awareness and resilience.",
-          date: "April 2024",
-          image: "/unicef2.png",
-          url:"https://www.instagram.com/p/C6MbbWLLFDR/?img_index=1",
-        },
-      ],
-    },
-    {
-      name: "Polygon",
-      description: "Polygon University is the only private university accredited by the Tunisian Ministry of Higher Education and Scientific Research for its 100% online courses.",
-      logoUrl: "/polygon.jpg",
-      start: "2023",
-      end: "2024",
-      role: "Member",
+      /*
       events: [
         {
           title: "AI Hackathon and Prototyping",
@@ -347,24 +313,27 @@ export const DATA = {
           url: "https://www.instagram.com/p/C_VLeoIIpEN/?img_index=1",
         },
       ],
+    **/
+    }, 
+
+    {
+      name: "IEEE Student Branch - ISSAT Sousse",
+      description: "",
+      logoUrl: "/ieee.jpg",
+      start: "2022",
+      end: "2023",
+      role: "Member",
+      
     },
 
     {
-      name: "Injaz",
-      description: "INJAZ Tunisia is an organization inspires and prepares young people to succeed in the global economy by offering hands-on programs and training in entrepreneurship, business skills, and workforce readiness.",
-      logoUrl: "/injaz.png",
-      start: "2023",
-      end: "2024",
+      name: "Google Developer Student Clubs - ISSAT Sousse",
+      description: "",
+      logoUrl: "/gdsc.png",
+      start: "2022",
+      end: "2023",
       role: "Member",
-      events: [
-        {
-          title: "Local Company Program Competition",
-          description: "Participated in the Local Company Program competition, collaborating with teams in a competitive and inspiring environment. The event focused on innovation, business solutions, and team collaboration, with the winning teams moving on to represent ISCAE at the national INJAZ competition.",
-          date: "Feb 2024",
-          image: "/injaz3.png",
-          url: "https://www.instagram.com/p/C32ik-no3Cc/?img_index=7",
-        }
-      ],
+      
     },
 
   ],

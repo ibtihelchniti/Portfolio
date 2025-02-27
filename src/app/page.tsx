@@ -166,9 +166,7 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   {" "}
-                  I&apos;m committed to continuous learning and growth. I have
-                  earned a total of {DATA.hackathons.length} certifications,
-                  highlighting my dedication and achievements.
+                  I actively pursue online courses and continue to study, ensuring my skills remain current and my expertise deepens with every new technology.
                 </p>
               </div>
             </div>
@@ -291,7 +289,7 @@ export default function Page() {
               Feel free to reach out to me on {" "}
                 <Link
                   className="text-blue-500"
-                  href="https://www.linkedin.com/in/chaima-ben-salah-a2a20927a/"
+                  href="https://www.linkedin.com/in/ibtihel-chniti-21a6a5238/"
                 >
                   LinkedIn{" "}
                 </Link>
