@@ -117,6 +117,38 @@ export const DATA = {
 
 
   projects: [
+
+    {
+      title: "Simulateur de revenus – Elzei Portage",
+      href: "https://elzei-portage.com/simulation",
+      dates: "Fév 2025 – Mai 2025",
+      active: true,
+      description: "Conception et intégration d’un simulateur de revenus sur-mesure pour une société de portage salarial. Développé en PHP & JavaScript et intégré dans un site WordPress via un thème enfant Kadence, ACF, AJAX et une base MySQL externe. Outil interactif avec validation en temps réel, visualisation Chart.js, export PDF via jsPDF et envoi automatique des résultats par email.",    
+      technologies: [
+       
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "css",
+        "Chart.js",
+        "jsPDF",
+        "ACF",
+        "AJAX",
+        "MySQL",
+        "localStorage"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://elzei-portage.com/simulation",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+      ],
+      image: "",
+      video: "/simulateurDemo.mp4",
+    },
+
     {
       title: "Job Scraper & WordPress Integrator",
       href: "http://213.130.144.156/",
