@@ -8,7 +8,7 @@ export const DATA = {
   location: "Tunis, TN",
   locationLink: "https://www.google.com/maps/place/tunis",
   description:
-    "Full-Stack Developer | Data scraping | Python/Flask, MySQL, Angular",
+    "Full-Stack Web Developer ",
   summary:
     "Full-stack developer with a Bachelor's in Computer Systems Engineering and proven expertise in building high-performance web applications. Proficient in Python, Angular, Flask, Django, and WordPress, I specialize in advanced data extraction and secure integration systems. My experience spans automated web scraping, database optimization, and scalable deployment using modern tools. Passionate and detail-oriented, I thrive in dynamic, challenging environments and am committed to driving digital innovation.",
   avatarUrl: "/me.jpg",
