@@ -119,6 +119,27 @@ export const DATA = {
   projects: [
 
     {
+      title: "Dolibarr Smart Integration",
+      href: "",
+      dates: "Août 2025",
+      active: true,
+      description: "Développement d’une solution web pour automatiser la création de factures dans Dolibarr à partir d’un fichier Excel. Backend : Python (FastAPI, Pandas) pour le traitement des données et l’intégration avec l’API Dolibarr (création, validation, mapping des champs : clients, modes de règlement, comptes bancaires, projets…). Frontend : Angular pour une interface claire et intuitive, permettant d’importer le fichier Excel et de suivre le processus en temps réel. ",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Angular",
+        "Dolibarr",
+        "Excel",
+        "Gunicorn",
+        "Nginx",
+      ],
+          
+      image: "",
+      video: "/dolibarrSmartIntegrationDemo.mp4",
+    },
+
+    {
       title: "Simulateur de revenus – Elzei Portage",
       href: "https://elzei-portage.com/simulation",
       dates: "Fév 2025 – Mai 2025",
