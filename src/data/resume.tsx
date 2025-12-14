@@ -26,7 +26,12 @@ export const DATA = {
     "Gunicorn",
     "Nginx",
     "MySQL", 
+    "PostgreSQL",
+    "Supabase",
+    "SQLALchemy",
+    "LLM",
     "Angular",
+    "Next.js",
     "JavaScript", 
     "Typescript", 
     "HTML5", 
@@ -117,6 +122,30 @@ export const DATA = {
 
 
   projects: [
+
+    {
+      title: "Automated Google Maps Reviews Analyzer",
+      href: "",
+      dates: "2024 – Present",
+      active: true,
+      description:
+        "Full-stack web application that automates the extraction and analysis of Google Maps reviews. Users can log in securely via Supabase. The system retrieves reviews by establishment name or direct URL, filters reviews with both rating and comment, and stores cleaned and deduplicated data in PostgreSQL. Reviews are analyzed with LLMs to generate actionable insights including strengths, weaknesses, and improvement recommendations.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Selenium",
+        "Apify",
+        "PostgreSQL",
+        "Supabase",
+        "SQLAlchemy",
+        "LLM",
+        "Next.js",
+        "TypeScript",
+      ],
+      links: [],
+      image: "",
+      video: "/Demo_CompetitorWatchPro.mp4",
+    },
 
     {
       title: "Dolibarr Smart Integration",
@@ -296,6 +325,24 @@ export const DATA = {
       image: "/alWafaConseilWebsite.png",
       video:
         "",
+    },
+
+    {
+      title: "E-commerce Website – naya.tn",
+      href: "https://naya.tn",
+      dates: "Nov 2025",
+      active: true,
+      description:"",
+      technologies: ["WordPress", "WooCommerce"],
+      links: [
+        {
+          type: "Website",
+          href: "https://naya.tn",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/nayaWebsite.png",
+      video: "",
     },
 
 
