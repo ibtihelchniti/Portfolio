@@ -3,10 +3,8 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ibtihel Chniti",
-  initials: "RF",
-  url: "https://chaima.vercel.app",
-  location: "Tunis, TN",
-  locationLink: "https://www.google.com/maps/place/tunis",
+  initials: "IC",
+  url: "https://ibtihelchniti-portflio.netlify.app",
   description:
     "Full-Stack Web Developer ",
   summary:

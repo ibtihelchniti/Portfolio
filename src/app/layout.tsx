@@ -55,17 +55,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-     
-        <meta
-          property="og:title"
-          content="Chaima Ben Salah - software Developer Portfolio"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://chaima.vercel.app" />
-       
-        <meta property="og:image" content="/metatag.png" />
-      </head>
+
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
