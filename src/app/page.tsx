@@ -116,12 +116,13 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Data, Scraping & Automation
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  Des projets qui transforment des données brutes en outils
+                  exploitables : extraction automatisée, nettoyage, intégration
+                  d&apos;API et restitution métier. Chaque projet est présenté
+                  avec sa démo vidéo.
                 </p>
               </div>
             </div>
@@ -142,6 +143,40 @@ export default function Page() {
                   image={project.image}
                   video={project.video}
                   links={project.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section id="wordpress-sites">
+        <div className="space-y-8 w-full py-6">
+          <BlurFade delay={BLUR_FADE_DELAY * 12}>
+            <div className="flex flex-col items-center justify-center space-y-2 text-center">
+              <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">
+                Sites WordPress
+              </h3>
+              <p className="text-muted-foreground text-sm max-w-[600px]">
+                Sites vitrines et e-commerce réalisés sous WordPress.
+              </p>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.wordpressSites.map((site, id) => (
+              <BlurFade
+                key={site.title}
+                delay={BLUR_FADE_DELAY * 13 + id * 0.05}
+              >
+                <ProjectCard
+                  href={site.href}
+                  key={site.title}
+                  title={site.title}
+                  description={site.description}
+                  dates={site.dates}
+                  tags={site.technologies}
+                  image={site.image}
+                  video={site.video}
+                  links={site.links}
                 />
               </BlurFade>
             ))}
