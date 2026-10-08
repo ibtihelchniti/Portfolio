@@ -184,13 +184,7 @@ export const DATA = {
         "AJAX",
         "MySQL",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://elzei-portage.com/simulation",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+
       image: "",
       video: "/simulateurDemo.mp4",
     },
@@ -213,23 +207,7 @@ export const DATA = {
         "Gunicorn",
         "Nginx",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "http://213.130.144.156/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source Frontend",
-          href: "https://github.com/ibtihelchniti/frontend_jobScraper",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Source Backend",
-          href: "https://github.com/ibtihelchniti/backend_jobScraper",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
+
       image: "",
       video: "/jobScrapDemo.mp4",
     },
