@@ -255,14 +255,14 @@ export const DATA = {
     },
     {
       title: "Elzei Portage Website",
-      href: "https://elzei-uat.esy.es",
+      href: "https://elzei-portage.com",
       dates: "Feb 2025",
       description: "Site vitrine pour l'activité de portage salarial.",
       technologies: ["WordPress"],
       links: [
         {
           type: "Website",
-          href: "https://elzei-uat.esy.es",
+          href: "https://elzei-portage.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
