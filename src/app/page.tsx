@@ -204,7 +204,7 @@ export default function Page() {
                 N’hésitez pas à me contacter sur{" "}
                 <Link
                   className="text-blue-500"
-                  href="https://www.linkedin.com/in/ibtihel-chniti-21a6a5238/"
+                  href="https://www.linkedin.com/in/ibtihel-chniti"
                 >
                   LinkedIn
                 </Link>{" "}
@@ -217,4 +217,3 @@ export default function Page() {
     </main>
   );
 }
-```
