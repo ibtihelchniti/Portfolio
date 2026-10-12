@@ -186,6 +186,7 @@ export const DATA = {
       ],
 
       image: "",
+      links: [],
       video: "/simulateurDemo.mp4",
     },
     {
@@ -209,6 +210,7 @@ export const DATA = {
       ],
 
       image: "",
+      links: [],
       video: "/jobScrapDemo.mp4",
     },
     {
