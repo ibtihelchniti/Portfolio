@@ -60,7 +60,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ibtihel-chniti-21a6a5238/",
+        url: "https://www.linkedin.com/in/ibtihel-chniti",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -149,7 +149,7 @@ export const DATA = {
     {
       title: "Dolibarr Smart Integration",
       href: "",
-      dates: "Août 2025",
+      dates: "",
       active: true,
       description:
         "Le service RH d'Elzei Consulting perdait un temps considérable à ressaisir manuellement des factures dans Dolibarr à partir de fichiers Excel fournis par les clients. J'ai conçu une interface web qui importe ces fichiers, mappe automatiquement les champs (clients, conditions et modes de règlement, comptes bancaires, projets) et génère les factures via l'API Dolibarr, avec validation et gestion d'erreurs pour fiabiliser le processus. Résultat : un temps de saisie manuelle fortement réduit et un processus de facturation fiabilisé, suivable en temps réel depuis une interface Angular.",
@@ -170,7 +170,7 @@ export const DATA = {
     {
       title: "Simulateur de revenus – Elzei Portage",
       href: "https://elzei-portage.com/simulation",
-      dates: "Fév 2025 – Mai 2025",
+      dates: "",
       active: true,
       description:
         "Une société de portage salarial avait besoin d'un outil permettant à ses prospects de visualiser en temps réel leur revenu net selon leur TJM, leurs jours facturés et leurs frais professionnels — sans intervention manuelle d'un conseiller. J'ai conçu un simulateur interactif calculant en direct chiffre d'affaires, frais de gestion, charges et salaire net, avec visualisation graphique (Chart.js), sélection de véhicules de service avec estimation des coûts, et export PDF automatisé de la simulation et de la fiche de paie envoyé par e-mail. Intégré nativement dans le site WordPress via un thème enfant Kadence, ACF et AJAX sécurisé, connecté à une base MySQL externe.",
@@ -192,7 +192,7 @@ export const DATA = {
     {
       title: "Job Scraper & WordPress Integrator",
       href: "http://213.130.144.156/",
-      dates: "Jan 2024 – Jun 2024",
+      dates: "",
       active: true,
       description:
         "Objectif : centraliser automatiquement des offres d'emploi dispersées sur plusieurs sites, sans ressaisie manuelle. J'ai conçu un système de scraping Python/Selenium s'exécutant chaque nuit via cron, avec gestion des doublons, qui alimente une base MySQL et affiche les offres sur une plateforme WordPress via WP Job Manager. Une interface de configuration développée en Angular permet d'ajuster les sources et paramètres sans toucher au code, et l'accès est sécurisé par authentification LDAP. Déployé en production sur VPS (Gunicorn + Nginx).",
@@ -216,7 +216,7 @@ export const DATA = {
     {
       title: "Facebook Scraping & Sentiment Analyzer",
       href: "",
-      dates: "Fév 2023 – Jun 2023",
+      dates: "",
       active: true,
       description:
         "Projet de fin d'études : analyser automatiquement la perception d'une marque ou d'un sujet sur Facebook à partir de mots-clés, d'IDs de pages ou de plages de dates, sans dépouillement manuel. J'ai développé une application Django qui extrait automatiquement les posts via la librairie facebook_scraper, prétraite les données textuelles (nettoyage, lemmatisation, suppression des stopwords), puis classifie chaque post comme positif, négatif ou neutre avec TextBlob/NLTK. Les résultats sont restitués sous forme de graphiques interactifs (Matplotlib) dans une interface pensée pour un utilisateur non technique.",
@@ -242,7 +242,7 @@ export const DATA = {
     {
       title: "Elzei Consulting Website",
       href: "https://elzei.fr",
-      dates: "Jan 2024",
+      dates: "",
       description: "Site vitrine corporate.",
       technologies: ["WordPress"],
       links: [
@@ -258,7 +258,7 @@ export const DATA = {
     {
       title: "Elzei Portage Website",
       href: "https://elzei-portage.com",
-      dates: "Feb 2025",
+      dates: "",
       description: "Site vitrine pour l'activité de portage salarial.",
       technologies: ["WordPress"],
       links: [
@@ -274,7 +274,7 @@ export const DATA = {
     {
       title: "AlWafa Conseil Website",
       href: "https://alwafa-conseil.com",
-      dates: "Jan 2024",
+      dates: "",
       description: "Site vitrine corporate.",
       technologies: ["WordPress"],
       links: [
@@ -290,7 +290,7 @@ export const DATA = {
     {
       title: "E-commerce Website – naya.tn",
       href: "https://naya.tn",
-      dates: "Nov 2025",
+      dates: "",
       description:
         "Mission freelance (client) : conception complète d'un site e-commerce dédié à la vente de produits de ménage — installation, configuration et personnalisation de WordPress et WooCommerce, design responsive adapté aux besoins du client.",
       technologies: ["WordPress", "WooCommerce"],
